@@ -1,0 +1,39 @@
+/* Reset styles */
+body {
+	text-align: center;
+	font-size: 24px !important;
+}
+
+/* General Class Styles */
+.lg-size {
+	font-size: 55px !important;
+}
+
+/* Style for the Container for quotes */
+#quote-container {
+	padding: 2.2rem;
+	min-width: 80vw;
+	height: 350px;
+	border-radius: 4px;
+	margin-top: 30vh;
+	background-color: white;
+}
+
+#author {
+	margin-top: 18vh;
+	margin-left: 48vw;
+}
+
+#new-quote-btn {
+	font-size: 16px !important;
+	margin-left: 48.5vw;
+	padding: 9px;
+	border-radius: 2px;
+	color: white;
+	background-color: #16a085;
+}
+
+#new-quote-btn:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
