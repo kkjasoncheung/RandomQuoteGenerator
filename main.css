@@ -15,7 +15,7 @@ body {
 	min-width: 80vw;
 	height: 350px;
 	border-radius: 4px;
-	margin-top: 30vh;
+	margin-top: 12vh;
 	background-color: white;
 }
 
@@ -40,4 +40,9 @@ body {
 /* max constraints for the quote */
 #quote {
 	height: 150px;
+}
+
+#title {
+	color: white;
+	margin-top: 12vh;
 }
