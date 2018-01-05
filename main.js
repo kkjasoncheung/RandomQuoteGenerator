@@ -13,7 +13,7 @@ $(document).ready(function(){
 	var colorCounter = 0;
 
 	// URL for retrieving quote
-	var URL = "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback="
+	var URL = "http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=?"
 
 	// set default bg colour for body
 	body.css("background-color", colors[colorCounter]);
@@ -21,7 +21,7 @@ $(document).ready(function(){
 	// get new quote from quotes on design API each time new quote btn is clicked
 	function getNewQuoteChangeBg(){
 		//  FIX THIS API CALL
-		$.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&_jsonp=?", function(json){
+		$.getJSON(URL, function(json){
 			// change contents on HTML elements
 			quote.html(json[0].content);
 			author.html(json[0].title);
