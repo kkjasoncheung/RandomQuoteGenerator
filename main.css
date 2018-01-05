@@ -11,7 +11,7 @@ body {
 
 /* Style for the Container for quotes */
 #quote-container {
-	padding: 2.2rem;
+	padding: 2.5rem;
 	min-width: 80vw;
 	height: 350px;
 	border-radius: 4px;
@@ -20,20 +20,24 @@ body {
 }
 
 #author {
-	margin-top: 18vh;
-	margin-left: 48vw;
+	margin-left: 55vw;
 }
 
 #new-quote-btn {
 	font-size: 16px !important;
-	margin-left: 48.5vw;
+	margin-left: 55.5vw;
 	padding: 9px;
 	border-radius: 2px;
 	color: white;
 	background-color: #16a085;
+	text-decoration: none;
 }
 
 #new-quote-btn:hover {
-	text-decoration: none;
 	opacity: 0.8;
+}
+
+/* max constraints for the quote */
+#quote {
+	height: 150px;
 }
